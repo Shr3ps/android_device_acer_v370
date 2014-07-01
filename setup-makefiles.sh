@@ -1,7 +1,7 @@
 #!/bin/sh
 
-VENDOR=wiko
-DEVICE=stairway
+VENDOR=acer
+DEVICE=v370
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
 

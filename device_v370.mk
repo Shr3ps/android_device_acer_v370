@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product-if-exists, vendor/wiko/stairway/stairway-vendor.mk)
+$(call inherit-product-if-exists, vendor/acer/v370/v370-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay/
 

@@ -13,16 +13,16 @@
 # limitations under the License.
 
 # Inherit device configuration
-$(call inherit-product, device/wiko/stairway/full_stairway.mk)
+$(call inherit-product, device/acer/v370/full_v370.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
-PRODUCT_NAME := cm_stairway
-PRODUCT_DEVICE := stairway
-PRODUCT_MODEL := Wiko Stairway
-PRODUCT_RELEASE_NAME := Stairway
+PRODUCT_NAME := cm_v370
+PRODUCT_DEVICE := v370
+PRODUCT_MODEL := Acer V370
+PRODUCT_RELEASE_NAME := V370
 PRODUCT_BRAND := Android
-PRODUCT_MANUFACTURER := Wiko
+PRODUCT_MANUFACTURER := Acer
