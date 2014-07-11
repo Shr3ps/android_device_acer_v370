@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_FOLDER := device/acer/v370
+DEVICE_FOLDER := device/acer/C11
 
 -include vendor/acer/v370/BoardConfigVendor.mk
 
@@ -38,7 +38,7 @@ TARGET_NO_BOOTLOADER := true
 BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_FOLDER)/boot.mk
 
 # EGL settings
-BOARD_EGL_CFG := device/acer/v370/egl.cfg
+BOARD_EGL_CFG := device/acer/C11/egl.cfg
 USE_OPENGL_RENDERER := true
 BOARD_EGL_WORKAROUND_BUG_10194508 := true
 
@@ -72,7 +72,7 @@ WIFI_DRIVER_FW_PATH_STA := "STA"
 WIFI_DRIVER_FW_PATH_P2P := "STA+P2P"
 
 # telephony
-BOARD_RIL_CLASS := ../../../device/acer/v370/ril/
+BOARD_RIL_CLASS := ../../../device/acer/C11/ril/
 
 # allow more than one lun file
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/virtual/android_usb/android0/f_mass_storage/lun%d/file"
