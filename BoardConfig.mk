@@ -42,6 +42,8 @@ BOARD_EGL_CFG := device/acer/C11/egl.cfg
 USE_OPENGL_RENDERER := true
 BOARD_EGL_WORKAROUND_BUG_10194508 := true
 
+DEVICE_RESOLUTION := 540x960
+
 # kernel
 TARGET_PREBUILT_KERNEL := $(DEVICE_FOLDER)/prebuilt/kernel
 
@@ -72,7 +74,7 @@ WIFI_DRIVER_FW_PATH_STA := "STA"
 WIFI_DRIVER_FW_PATH_P2P := "STA+P2P"
 
 # telephony
-BOARD_RIL_CLASS := ../../../device/acer/C11/ril/
+#BOARD_RIL_CLASS := ../../../device/acer/C11/ril/
 
 # allow more than one lun file
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/virtual/android_usb/android0/f_mass_storage/lun%d/file"

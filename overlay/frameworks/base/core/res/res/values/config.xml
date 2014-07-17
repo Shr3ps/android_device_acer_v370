@@ -69,7 +69,7 @@
     <bool name="config_wifi_background_scan_support">true</bool>
 
     <!-- Whether to enable auto provisioning the app for new SIM card on boot.-->
-    <bool name="config_auto_provision_enable">true</bool>
+    <!--bool name="config_auto_provision_enable">true</bool-->
 
     <bool name="config_automatic_brightness_available">true</bool>
 
@@ -145,7 +145,7 @@
 	<item>255</item>
     </integer-array>
 
-    <bool name="config_enableTorch">true</bool>
+    <!--bool name="config_enableTorch">true</bool-->
 
     <integer name="config_deviceHardwareKeys">7</integer>
 </resources>
