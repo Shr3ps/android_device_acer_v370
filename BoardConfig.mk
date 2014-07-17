@@ -14,7 +14,7 @@
 
 DEVICE_FOLDER := device/acer/C11
 
--include vendor/acer/v370/BoardConfigVendor.mk
+-include vendor/acer/C11/BoardConfigVendor.mk
 
 # board
 TARGET_BOARD_PLATFORM := mt6589
