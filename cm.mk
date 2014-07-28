@@ -16,9 +16,9 @@
 $(call inherit-product, device/acer/C11/full_C11.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 720
+# Boot Animation
+TARGET_SCREEN_WIDTH := 540
+TARGET_SCREEN_HEIGHT := 960
 
 PRODUCT_NAME := cm_C11
 PRODUCT_DEVICE := C11
