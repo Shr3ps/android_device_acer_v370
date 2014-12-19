@@ -24,7 +24,7 @@ EXTRA_CFLAGS=
 CC:=gcc
 CFLAGS:= $(EXTRA_CFLAGS) -Wall -O2
 LDFLAGS:= -Wall -O2
-LIBS:=-lpthread
+#LIBS:=-lpthread
 
 
 objects = src/gsm0710muxd.o

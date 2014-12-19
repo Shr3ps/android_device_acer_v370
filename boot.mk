@@ -72,6 +72,6 @@ $(INSTALLED_RECOVERYIMAGE_TARGET): $(MKBOOTIMG) \
 	@echo -e ${CL_CYN}"----- Making recovery image ------"${CL_RST}
 	$(MKBOOTIMG) $(INTERNAL_MTK_RECOVERYIMAGE_ARGS) \
 		$(BOARD_MKBOOTIMG_ARGS) --output $@
-	$(hide) $(call assert-max-image-size,$@, \
-		$(BOARD_RECOVERYIMAGE_PARTITION_SIZE),raw)
+#	$(hide) $(call assert-max-image-size,$@, \
+#		$(BOARD_RECOVERYIMAGE_PARTITION_SIZE),raw)
 	@echo -e ${CL_CYN}"Made recovery image: $@"${CL_RST}
